@@ -1,0 +1,7 @@
+- internet:
+    - global network of innerconnected computers & devices.
+    "network of networks"
+    - Core characteristics:
+
+- TCP/IP ?
+- ARPA ?
