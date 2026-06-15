@@ -1,0 +1,16 @@
+- Client-Server Architecture: The Foundation of Web Communication
+    - Client vs User in web communication
+    (Client vs User in web communication)
+        In web communication, a client is the hardware or software application (such as a web browser or mobile app) that sends requests to a server, while a user is the actual human being interacting with that client to access a web service
+
+    - torrent vs peer to peer (P2P) Architecture
+     (torrent vs peer to peer (P2P) Architecture)
+
+        - torrent
+            (https://kesharapiyumal2016.medium.com/torrents-a-distributed-system-1aec7136dd88)
+
+            - Peers are users that are actively downloading or uploading files. In other words, this term refers to every member in a file sharing (P2P — peer-to-peer) network.
+            - Seeders are those who have the fully downloaded files on their device. They are seeding the files, which means that they allow other users to take bits of data from their computers.
+            - Leechers are those who are downloading the file. In other words, they are taking bits of data from seeders in an effort to complete their downloads.
+            - Indexers are torrent websites. These websites act as repositories of torrents, where you can browse different types of media and get the torrent you need.
+            - Trackers are bridges between peers (members of a P2P network). These are actually URLs and servers that aid in file transfer by routing small data pieces between uploaders and downloads.
