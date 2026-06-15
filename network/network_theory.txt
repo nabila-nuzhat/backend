@@ -92,8 +92,30 @@ https://en.wikipedia.org/wiki/Name_server
     - RFC 6298:
      is the IETF standard that dictates how the Transmission Control Protocol (TCP) calculates and manages its Retransmission Timeout (RTO). It defines the standard algorithm used to determine how long a TCP sender should wait for an acknowledgment before assuming a packet is lost and retransmitting it
     - Truncated meaning in networking
+    - Overhead meaning in TCP
+
+    - Congestion
+        (congestion meaning in networking)
+        (congestion meaning in TCP)
+        (https://www.geeksforgeeks.org/computer-networks/tcp-congestion-control/)
 
 - UDP (User Datagram Protocol) 
     - Node.js doesn't use UDP
     - UDP is used when a URL is typed to ask for the website's IP address from Root and Name Servers
         (UDP is used when a URL is typed to ask for the website's IP address from Root and Name Servers - google - ss)
+    - why UDP  connectionless protocol
+        User Datagram Protocol (UDP) is considered a connectionless protocol because it transmits data packets immediately without establishing a formal session or "handshake" between the sender and the receiver
+    - VoIP 
+       VoIP (Voice over Internet Protocol) is a technology that lets you make and receive phone calls over the internet instead of traditional analog phone lines. It works by converting your voice into digital data packets, sending them securely online, and translating them back into sound for the receiver.
+
+        3CX software is extensively used for VoIP
+        
+- TCP vs UDP:
+(https://www.geeksforgeeks.org/computer-networks/differences-between-tcp-and-udp/)
+(what are TCP and UDP)
+(TCP vs UDP)
+    - TCP (Transmission Control Protocol) and UDP (User Datagram Protocol) are the two primary methods for sending data across the internet. TCP is reliable, connection-oriented, and verifies that all data arrives perfectly (ideal for web browsing). UDP is connectionless and faster, but skips error-checking (ideal for gaming and live streaming)
+
+    - are core transport-layer protocols used to transmit data across the internet
+
+    -
