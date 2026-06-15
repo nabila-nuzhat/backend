@@ -89,3 +89,11 @@ https://en.wikipedia.org/wiki/Name_server
     - Flag in tcp header
     - SYN-ACK Flag - TCP
     - MSS (Maximum Segment Size) in TCP
+    - RFC 6298:
+     is the IETF standard that dictates how the Transmission Control Protocol (TCP) calculates and manages its Retransmission Timeout (RTO). It defines the standard algorithm used to determine how long a TCP sender should wait for an acknowledgment before assuming a packet is lost and retransmitting it
+    - Truncated meaning in networking
+
+- UDP (User Datagram Protocol) 
+    - Node.js doesn't use UDP
+    - UDP is used when a URL is typed to ask for the website's IP address from Root and Name Servers
+        (UDP is used when a URL is typed to ask for the website's IP address from Root and Name Servers - google - ss)
