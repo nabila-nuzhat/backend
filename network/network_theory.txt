@@ -1,7 +1,91 @@
 - internet:
-    - global network of innerconnected computers & devices.
-    "network of networks"
-    - Core characteristics:
+        - global network of innerconnected computers & devices.
+        "network of networks"
+        - Core characteristics:
+    - Commercial Internet AFTER Brwoser????
 
 - TCP/IP ?
+    - ARPANET officially switched from NCP to TCP/IP
+    - TCP assigns number automatically to each packet ??
+    - 1st TCP Transmission Control Protocol was developed.
+        then later splitting it into TCP + IP
 - ARPA ?
+- NCP(Network Control Protocol ) ?
+    - not efficient enough
+- Packet Switching 
+- Packet Switched Network ?
+
+
+- HTTP
+    - based on TCP ?
+
+- HTTP vs TCP ?
+    - HTTP(HyperText Transfer Protocol): The protocol for transferring web pages between servers and browsers
+    - Why Called HYPER?
+    - TCP: Makes sure data arrives correctly and in the right order.
+        Reliability: Ensures complete, accurate delivery
+        Ordering: Reassembles packets in correct sequence
+
+
+- DNS ?? 
+- DNS Fundamentals
+
+    - invented before WWW (pdf slide)
+    - Domain Name System (DNS) translates human-friendly domain names (like "google.com") into numerical IP addresses that routers understand.
+
+- WWW 
+    - Working at CERN (Switzerland), Berners-Lee wanted a simpler way for scientists to share documents across the Internet.
+    - The World Wide Web — a system of interlinked hypertext documents.
+
+- The Dot-Com Boom
+    - WHAT is .com How was it made ???????
+- Browser
+    - Graphical Browser???
+    before that WHAT existed???
+
+
+- Router Navigation ???
+    - Packets travel through multiple routers ??
+
+- OSI Model: 7-Layer Architecture ??
+    - every layer adds some "Header" / "data"
+
+    - is API in Session Layer? ???
+- SMTP ? (in OSI layer App layer)
+
+- Presentation Layer(OSI Model)
+    - SSL/TLS,(Secure Sockets Layer / Transport Layer Security)MIME. MIME (Multipurpose Internet Mail Extensions) — Data formatting, encryption, compression
+ 
+    -SSL/TLS: secures internet data by encrypting the connection between two systems (point-to-point). 
+    - MIME, on the other hand, is an internet standard that dictates how various file types (attachments, audio, images) can be formatted within emails. Together, they form S/MIME, securing the email payloads themselves
+
+- TCP/IP 4-Layer Architecture from OSI (main internet) 7 Layers
+
+- ICANN (Internet Corporation for Assigned Names and Numbers)
+
+- , OS-Level Cache for DNS to IP process ??
+- DNS Resolver / Recursor ??
+- ISP Default: Google 8.8.8.8, Cloudflare 1.1.1.1 ????
+
+- Root Server:
+https://www.recordedfuture.com/threat-intelligence-101/cyber-threat-landscape/dns-root-servers
+
+https://electronicspost.com/dns-servers/
+https://www.iana.org/domains/root/servers
+
+- Name servers
+https://en.wikipedia.org/wiki/Name_server
+
+
+- root nameservers vs nameservers
+    - (root nameservers vs nameservers_TLD Handling_Live DNS Lookup Trace Example- google - ss)
+
+
+- TCP Headers Structure
+    - option and padding in tcp
+    - TCP-Header-Format
+        https://www.gatevidyalay.com/transmission-control-protocol-tcp-header/
+        (option and padding in tcp -google - ss)
+    - Flag in tcp header
+    - SYN-ACK Flag - TCP
+    - MSS (Maximum Segment Size) in TCP
