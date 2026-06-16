@@ -8,9 +8,49 @@
 
         - torrent
             (https://kesharapiyumal2016.medium.com/torrents-a-distributed-system-1aec7136dd88)
-
+            (other ss of torrent)
             - Peers are users that are actively downloading or uploading files. In other words, this term refers to every member in a file sharing (P2P — peer-to-peer) network.
             - Seeders are those who have the fully downloaded files on their device. They are seeding the files, which means that they allow other users to take bits of data from their computers.
             - Leechers are those who are downloading the file. In other words, they are taking bits of data from seeders in an effort to complete their downloads.
             - Indexers are torrent websites. These websites act as repositories of torrents, where you can browse different types of media and get the torrent you need.
             - Trackers are bridges between peers (members of a P2P network). These are actually URLs and servers that aid in file transfer by routing small data pieces between uploaders and downloads.
+
+            - Legal use cases of example Torrent:
+            (Legal use cases of example Torrent - P2P)
+
+
+- HTTP
+(TCP vs HTTP)
+    - TCP/IP acts as the internet’s delivery system, moving raw bytes reliably from one computer to another. However, it doesn't understand what the data is or how to display it. HTTP is needed to give that data structure, meaning, and a standardized language that browsers and servers can understand and process
+
+    - Protocols: set of rules
+    - HTTP operates at the Application Layer of the network stack, using TCP for data transfer (QUIC in HTTP/3).
+
+    - HTTP is "stateless": 
+        it doesn't store information about previous requests. This design enables easy scaling but requires mechanisms like cookies, sessions, or tokens to maintain state in web applications
+
+    - HTTP Versions:
+        - Usually now used HTTp 1.1 / 1.2 version
+
+    - (TLS Transport Layer Security)
+
+
+    - Host Header
+        - eg. subdomain use under same domain
+
+    - (m.example.com_mobile version subdmain)
+        - m. (mdot) subdomain
+       (Mobile Subdomains vs RWD Responsive Web)
+       (introduction of m.websitename.com)
+
+- **** if Multiple requests sent without waiting then why in HTML 1.1 Head-of-Line Blocking: One delayed request blocks all subsequent requests ****
+    - (Pipelined vs Head-of-Line Blocking_HTTP 1.1 - google - ss)
+    - bcz if one response delays 1s and other responses ready in 1ms the whole process will be delayed till 1s.
+    - No Multiplexing(no simultaneous request)
+    (Multiplexing in HTTP - google - ss )
+    (Multiplexing in HTTP_Image.jpg)
+    (Multiplexing in HTTP_Http 1.1_http 2_http Quic.jpg)
+    (keep-alive HTTP1.1 Connection Persistence Works - google - ss)
+    - Persistent Connections: Keep-Alive by default—single TCP connection for multiple requests why it is for http 1.1 ?
+        (Persistent Connections: Keep-Alive by default—single TCP connection for multiple requests why it is for http 1.1 - google - ss)
+
