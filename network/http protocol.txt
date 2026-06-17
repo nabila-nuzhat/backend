@@ -1,3 +1,5 @@
+- http Version Selection in TCP IP Layers Elaborate:
+    (http Version Selection in TCP IP Layers Elaborate- google - AI - ss)
 - Client-Server Architecture: The Foundation of Web Communication
     - Client vs User in web communication
     (Client vs User in web communication)
@@ -54,3 +56,24 @@
     - Persistent Connections: Keep-Alive by default—single TCP connection for multiple requests why it is for http 1.1 ?
         (Persistent Connections: Keep-Alive by default—single TCP connection for multiple requests why it is for http 1.1 - google - ss)
 
+- Http2
+    - Server Push vs Server Sent Events
+    (Server Push vs Server Sent Events-1 - google - ss)
+    (Server Push vs Server Sent Events-2 - google - ss)
+        - 
+        - why Server push is obsolete? is SSE now used instread of Server push?
+        (why Server push is obsolete_Actual alternate of Server Push - google - ss)
+
+    - (TLS Transport Layer Security)
+    
+- Http3 - QUIC protocol
+    - not commonly used
+
+
+- http 1.1 vs http 2 vs http 3 common usecases
+    (http 1.1 vs http 2 vs http 3 common usecases - google - ss)
+        - behind the scene who uses http?
+        (http 1.1 vs http 2 vs http 3 common usecases behind who actually uses HTTP)
+
+- tcp ip layers
+    (tcp ip layers - google - ss)
