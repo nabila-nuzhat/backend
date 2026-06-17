@@ -120,3 +120,8 @@ https://en.wikipedia.org/wiki/Name_server
 
     -
 
+---------------- Networking for Web Developers -------------------------------
+- latency
+    (latency - google - ss)
+
+

@@ -68,6 +68,8 @@
     
 - Http3 - QUIC protocol
     - not commonly used
+    - how was facebook live stream supported before qUIC??
+        (how was facebook live stream supported before qUIC - google - ss)
 
 
 - http 1.1 vs http 2 vs http 3 common usecases
