@@ -130,3 +130,10 @@ https://en.wikipedia.org/wiki/Name_server
     - (LAN vs MAN vs WAN use of Wire_max Distance_used device to interconnect and main connection point_practical example - google - ss)
     - (ISP vs ISP-managed infrastructure vs ISP or Municipal Fiber Backbone vs ISP demarcation point - google - ss)
     - (Router vs Modem vs Switch Access Point-Devices Name Examples - google - ss)
+
+- Router vs Switch
+    - between Router vs Switch which one comes after which as per connectivity, functionality and network layers?
+    (Router vs Switch Network Layers_Router vs Switch_as per connectivity_functionality_network layers - google - ss)
+
+- Switch
+    - Eg. Data pass via Local share Software like, shareIt 
