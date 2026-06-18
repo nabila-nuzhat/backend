@@ -135,5 +135,10 @@ https://en.wikipedia.org/wiki/Name_server
     - between Router vs Switch which one comes after which as per connectivity, functionality and network layers?
     (Router vs Switch Network Layers_Router vs Switch_as per connectivity_functionality_network layers - google - ss)
 
+
 - Switch
     - Eg. Data pass via Local share Software like, shareIt 
+
+- Device IP Address vs Network IP Address vs Website IP Address
+    - How VPN Hides Your Network IP Address?
+    (IP Address and Device IP Address vs Network IP Address vs Website IP Address_VPN Hides Your Network IP Address_VPN Hides Your Network IP Address - google - ss)
