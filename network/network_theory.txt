@@ -142,3 +142,14 @@ https://en.wikipedia.org/wiki/Name_server
 - Device IP Address vs Network IP Address vs Website IP Address
     - How VPN Hides Your Network IP Address?
     (IP Address and Device IP Address vs Network IP Address vs Website IP Address_VPN Hides Your Network IP Address_VPN Hides Your Network IP Address - google - ss)
+
+- Four octets (0-255) in IP address?
+    (Four octets (0-255) in IP address - google - ss)
+    - 2⁸ = 256:
+     Because there are 8 bits in each octet and each bit has 2 possibilities (0 or 1), there are exactly 2⁸ = 256 possible combinations per octet
+    - The Scale (0 to 255): Counting starts at 00000000 (which is 0 in decimal) and goes up to 11111111 (which is 255 in decimal). This creates exactly 256 unique numbers
+
+    - which part is the four octets here in IP address IPV4 ?
+        (which part is the four octets in IP Address IPV4 - google - ss)
+
+    
