@@ -152,4 +152,7 @@ https://en.wikipedia.org/wiki/Name_server
     - which part is the four octets here in IP address IPV4 ?
         (which part is the four octets in IP Address IPV4 - google - ss)
 
-    
+- Class A Class B Class C IP address
+    (Class A Class B Class C IP address - google - ss)
+    (https://www.geeksforgeeks.org/computer-networks/introduction-of-classful-ip-addressing/)
+    (https://learn.microsoft.com/en-us/troubleshoot/windows-client/networking/tcpip-addressing-and-subnetting)
