@@ -124,4 +124,8 @@ https://en.wikipedia.org/wiki/Name_server
 - latency
     (latency - google - ss)
 
-
+- LAN vs MAN vs WAN 
+    - (LAN vs MAN vs WAN use of Wire_max Distance, practical example_Device Names Example - google - ss)
+    - (LAN vs MAN vs WAN use of Wire - google - ss)
+    - (LAN vs MAN vs WAN use of Wire_max Distance_used device to interconnect and main connection point_practical example - google - ss)
+    - (ISP vs ISP-managed infrastructure vs ISP or Municipal Fiber Backbone vs ISP demarcation point - google - ss)
