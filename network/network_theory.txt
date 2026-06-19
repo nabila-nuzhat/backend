@@ -175,3 +175,52 @@ https://en.wikipedia.org/wiki/Name_server
 
 - NAT (Network Address Translation)
     (RFC 1918_ NAT Network Address Translation  to access external web assets - google - ss )
+    - NAT (Network Address Translation) is a networking process that maps private IP addresses to a public IP address, allowing multiple devices on a local network to access the internet using a single external address.
+    (NAT (Network Address Translation) - google - ss )
+    (ARP NAT DHCP Broadcast Address Default Gateway Public ip Private ip Subnet ultimate flow sequence from Router to device vs from device to Router - google - ss )
+
+- Network Interface Card (NIC) vs MAC Address
+     (Network Interface Card (NIC) vs MAC Address - google - ss )
+
+    - function of MAC address vs Private IP address in network device?
+     (function of MAC address vs Private IP address in network device - google - ss )
+
+    - why MAC address is required when private IP addresses are there gto find out the device and assigned to a device?
+     (why MAC address is required when private IP address is assigned to Device - google - ss )
+
+    - First 3 pairs of MAC address is manufacturer (OUI)
+        (First 3 pairs of MAC address is manufacturer (OUI) - google - ss)
+    - match manufacturer origin authentecity with the 1st 3 pair of MAC ?
+        (match manufacturer origin with the 1st 3 pair of MAC_manufacturer vs device brand - google - ss)
+    
+    - MAC address are of which devices and not for which devices?
+        (MAC address are of which devices and not for which devices - google - ss )
+        
+
+- Default Gateway vs private ip vs public ip vs Router
+        (Default Gateway vs private ip vs public ip vs Router - google - ss )
+
+        - is Default Gateway the Private IP of Router among the 256 Private IPs in 192.168.xxx.xxx class?
+            (Default Gate Format_Private IP address of Router ( Default Gateway ) vs Public IP address - google - ss)
+        - Private IP address of Router (default gateway) vs Public IP address
+            (Default Gate Format_Private IP address of Router ( Default Gateway ) vs Public IP address - google - ss)
+        - list of Public IP address format
+            (Default Gate Format_Private IP address of Router ( Default Gateway ) vs Public IP address - google - ss)
+
+- Broadcast Address Broadcast Address vs Public IP Address vs Private IP address of router
+    - (Broadcast Address Broadcast Address vs Public IP Address vs Private IP address of router - google - ss)
+    - How does Data and Network Communication flows through the Broadcast Address Broadcast Address vs Public IP Address vs Private IP address of router?
+    (Data and Network Communication flows through the Broadcast Address Broadcast Address vs Public IP Address vs Private IP address of router - google - ss)
+
+- ARP (Address Resolution Protocol)
+    - Address Resolution Protocol (ARP) is a fundamental TCP/IP protocol that maps a logical 32-bit IPv4 address to a physical 48-bit MAC (Media Access Control) address.
+    - acts as a bridge between the network layer and the data link layer, allowing devices on the same local network to actually route and deliver data.
+    Because IP addresses (the destination) change, while MAC addresses (the physical network card) remain permanently fixed, devices rely on ARP to ensure packets reach the right machine.
+    (ARP (Address Resolution Protocol) in TCP ip - google - ss)
+    - (https://www.geeksforgeeks.org/computer-networks/arp-protocol/)
+        (ARP Geeks for Geeks)
+    - ARP vs DHCP
+    (ARP vs DHCP - google - ss)
+    - if go out of network, ARP losts. again new ARP request happens
+
+
