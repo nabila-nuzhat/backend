@@ -156,3 +156,22 @@ https://en.wikipedia.org/wiki/Name_server
     (Class A Class B Class C IP address - google - ss)
     (https://www.geeksforgeeks.org/computer-networks/introduction-of-classful-ip-addressing/)
     (https://learn.microsoft.com/en-us/troubleshoot/windows-client/networking/tcpip-addressing-and-subnetting)
+
+- why subnet is used, is it assigned on devices? is it applied on home devices? what is practical example?
+    (Subnet on home devices - google - ss)
+    (Subnet on home devices_More Info-google AI - google - ss)
+    (Guest Home Subnet-1 - google - ss)
+    (Guest Home Subnet-2 - google - ss)
+    (Subnet Format List - google - ss)
+
+- DHCP (Dynamic Host Configuration Protocol):
+    (DHCP Dynamic Host Configuration Protocol - google - ss)
+    - The Dynamic Host Configuration Protocol (DHCP) is a network management protocol used to automatically assign IP addresses and essential communication parameters (like subnet masks, default gateways, and DNS servers) to devices,
+
+
+- RFC 1918 (Reserved Private Ranges)
+    (RFC 1918 Reserved Private Ranges - google - ss )
+    is a memorandum published by the Internet Engineering Task Force (IETF) that defines the standards for allocating private IPv4 addresses within internal networks. Devices using these designated addresses can communicate freely within an internal enterprise or home network but are completely non-routable on the public internet
+
+- NAT (Network Address Translation)
+    (RFC 1918_ NAT Network Address Translation  to access external web assets - google - ss )
