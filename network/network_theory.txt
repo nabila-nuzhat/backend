@@ -229,3 +229,6 @@ https://en.wikipedia.org/wiki/Name_server
 
 - ARP vs Broadcast IP address
     (ARP vs Broadcast IP address - claude - ss)
+
+- Ethernet vs Ethertnate Frame in LAN
+    (Ethernet vs Ethertnate Frame in LAN - claude - ss)
