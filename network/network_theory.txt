@@ -223,4 +223,7 @@ https://en.wikipedia.org/wiki/Name_server
     (ARP vs DHCP - google - ss)
     - if go out of network, ARP losts. again new ARP request happens
 
+- Port formats in PAT_ Static NAT vs Dynamic NAT vs PAT
+    (Port formats in PAT_ Static NAT vs Dynamic NAT vs PAT - claude - ss)
+
 
