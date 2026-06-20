@@ -178,6 +178,7 @@ https://en.wikipedia.org/wiki/Name_server
     - NAT (Network Address Translation) is a networking process that maps private IP addresses to a public IP address, allowing multiple devices on a local network to access the internet using a single external address.
     (NAT (Network Address Translation) - google - ss )
     (ARP NAT DHCP Broadcast Address Default Gateway Public ip Private ip Subnet ultimate flow sequence from Router to device vs from device to Router - google - ss )
+    (ARP NAT DHCP Broadcast Address Default Gateway Public ip Private ip Subnet ultimate flow sequence from Router to device vs from device to Router-google - google - ss )
 
 - Network Interface Card (NIC) vs MAC Address
      (Network Interface Card (NIC) vs MAC Address - google - ss )
@@ -226,4 +227,5 @@ https://en.wikipedia.org/wiki/Name_server
 - Port formats in PAT_ Static NAT vs Dynamic NAT vs PAT
     (Port formats in PAT_ Static NAT vs Dynamic NAT vs PAT - claude - ss)
 
-
+- ARP vs Broadcast IP address
+    (ARP vs Broadcast IP address - claude - ss)
