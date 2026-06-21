@@ -1,0 +1,62 @@
+------------- node js list of core concepts and common features ---------------
+(https://www.geeksforgeeks.org/node-js/node-js-basics/)
+(NodeJS Basics-geeks for geeks - ss)
+(https://www.geeksforgeeks.org/blogs/javascript-concepts-for-node-js-developers/)
+(JavaScript Concepts for Node.js Developers geeksforgeeks - ss)
+
+Features:
+    - Non-blocking I/O ?
+    - Event-driven architecture ?
+        - event driven architecture in simple terms
+            (event driven architecture in simple terms- google - ss)
+            ( event-driven architecture-geeksforgeeks - ss)
+           ( https://www.geeksforgeeks.org/system-design/event-driven-architecture-system-design/)
+            event driven architecture in simple terms in node js
+            (event driven architecture in simple terms in node js – google – ss)
+           
+            (https://www.freecodecamp.org/news/event-based-architectures-in-javascript-a-handbook-for-devs/)
+                - Event-Based Architectures in JavaScript: A Handbook for Devs
+
+            (Event-Driven Architecture of NodeJS - geeksforgeeks - ss)
+                - (https://www.geeksforgeeks.org/node-js/explain-the-event-driven-architecture-of-node-js/)
+
+    - Extensive module ecosystem?
+    - Single-threaded Model
+
+- Event loop ?
+    (Event loop technically - google - ss)
+    (Event loop in simple terms - google - ss)
+    (Node.js Event Loop Phases - google - ss)
+    - Technically, the event loop is a programming design pattern and architectural algorithm 
+    - used in event-driven programming 
+    - to handle and coordinate asynchronous operations. 
+    - It is the engine that allows single-threaded runtimes (like JavaScript or Node.js) to perform non-blocking I/O operations despite processing one task at a time.
+    
+    
+- create a simple HTTP server ??
+- require('http') ?
+- http module ?
+- http module is imported using require('http')  ??
+- HTTP server ?
+- res.end() ?
+- res.write() ?
+- server.listen(3000) ?? 
+    - starts the server on port 3000. ??
+
+
+Concepts:
+  Common Node.js Modules
+
+        - HTTP Module: The http module creates web servers and handles requests and responses.
+        - FS (File System) Module: The fs module reads, writes, and manages files.
+        - Path Module: The path module handles and transforms file paths across platforms.
+        - Event Module: The events module enables emitting and listening to events.
+        - Express Framework: The Express framework simplifies routing, middleware, and handling HTTP request.
+
+-  Node.js which is a tool 
+    - that enables server-side JavaScript coding ??
+     to create the server-side components of web applications ?? 
+
+- CommonJS ?
+- native module system ?
+- require() function
