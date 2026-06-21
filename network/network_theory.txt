@@ -182,6 +182,7 @@ https://en.wikipedia.org/wiki/Name_server
 
 - Network Interface Card (NIC) vs MAC Address
      (Network Interface Card (NIC) vs MAC Address - google - ss )
+     (NAT Network Address Translation - claude - ss)
 
     - function of MAC address vs Private IP address in network device?
      (function of MAC address vs Private IP address in network device - google - ss )
@@ -232,3 +233,5 @@ https://en.wikipedia.org/wiki/Name_server
 
 - Ethernet vs Ethertnate Frame in LAN
     (Ethernet vs Ethertnate Frame in LAN - claude - ss)
+
+- Abstraction is applied Networking

@@ -1,0 +1,47 @@
+- Node.js
+(https://nodejs.org/learn/getting-started/introduction-to-nodejs)
+(https://dev.to/ritam369/a-gentle-introduction-to-the-foundation-of-nodejs-architecture-bfe)
+    - an open-source and cross-platform 
+    - JavaScript runtime environment. 
+    - a popular tool for almost any kind of project!
+    - A Node.js app runs in a single process, 
+    without creating a new thread for every request. 
+    - Node.js provides a set of asynchronous I/O primitives in its standard library that prevent JavaScript code from blocking
+
+- allows Node.js to handle thousands of concurrent connections with a single server without introducing the burden of managing thread concurrency, which could be a significant source of bugs. means what?
+    - (asynchronous (non-blocking) model-node js - google - ss)
+
+- Without thread concurrency: Traditional servers spin up a new thread for every request. Node.js skips this, meaning multiple requests don't actively run in parallel on separate tracks, means ?
+    - (Node.js (Single-Threaded) - google - ss)
+
+
+- Node.js runs the V8 JavaScript engine, the core of Google Chrome, outside of the browser. This allows Node.js to be very performant.
+what does it mean?
+    (Node js Runs the V8 JavaScript engine outside of the browser - google - ss)
+    -  Historically, JavaScript was trapped inside browsers to make web pages interactive (e.g., handling button clicks). The creator of Node.js took this V8 engine out of Chrome and placed it inside a standalone backend wrapper
+
+- Building a Web Server In Node.js:
+    In a browser you cannot create a web server. 
+    In Node.js, you can build a fully functional web server in just a few lines of code without installing any third-party tools.
+    (Building a Web Server in Node Js_In Browser vs In Node js - google - ss)
+
+- concurrency
+    (concurrency in computer science - google - ss)
+
+- asynchronous operation on TCP UDP sockets and asynchronous DNS resolutions
+    (asynchronous operation on TCP UDP sockets and asynchronous DNS resolutions - google - ss)
+
+- how single thread is useful in programming
+    (how single thread is useful in programming - google - ss)
+
+- how did node js included v8 engine
+    (how did node js included v8 engine - google - ss)
+
+- List of asynchronous operation on TCP/UDP sockets and asynchronous DNS resolutions: for understanding node js and libuv
+    - (List of asynchronous operation on TCP UDP sockets and asynchronous DNS resolutions- 1 - google - ss)
+    - (List of asynchronous operation on TCP UDP sockets and asynchronous DNS resolutions- 2 - google - ss)
+    - (List of asynchronous operation on TCP UDP sockets and asynchronous DNS resolutions- 3 - google - ss)
+    - (usefulness of node js and libuv_asynchronous operation on TCP UDP sockets and asynchronous DNS resolutions - google - ss)
+
+- I/O operations in web apps and networking:
+    (I O operations in web apps and networking - google - ss)
