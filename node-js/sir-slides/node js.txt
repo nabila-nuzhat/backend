@@ -11,6 +11,7 @@
 -- Node.js Behind the scene Snippet NOTE:
     (Node.js Behind the scene Snippet NOTE - google - ss)
     (https://dev.to/ritam369/a-gentle-introduction-to-the-foundation-of-nodejs-architecture-bfe)
+    (Gentle-introduction_foundation of nodejs architecture.png - ss)
         "Debunking the Myth: Node.js Is More Than Just V8
     A common misconception! "Node.js is just V8 running JavaScript on our local machines—everything else is built-in."
 
