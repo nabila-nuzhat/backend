@@ -7,7 +7,17 @@
     - A Node.js app runs in a single process, 
     without creating a new thread for every request. 
     - Node.js provides a set of asynchronous I/O primitives in its standard library that prevent JavaScript code from blocking
+*******************************************************************
+-- Node.js Behind the scene Snippet NOTE:
+    (Node.js Behind the scene Snippet NOTE - google - ss)
+    (https://dev.to/ritam369/a-gentle-introduction-to-the-foundation-of-nodejs-architecture-bfe)
+        "Debunking the Myth: Node.js Is More Than Just V8
+    A common misconception! "Node.js is just V8 running JavaScript on our local machines—everything else is built-in."
 
+    Not quite!! Pure JavaScript (as speeches by ECMAScript) is sandboxed: no console, no fetch (that's for web API calls), no direct OS calls. Networking? File I/O? Timers? Those are Node.js inventions, courtesy of bindings and libuv.
+
+    V8 only converts the codes into machine code and executes that's it, but the real power comes from this layered foundation. Your express server isn't "pure JS"—it's JS invoking C++ bindings, which queue events in libuv's loop, pulling from the OS. This hybrid design is why Node.js scales: efficiently deals with the async I/O operations, with escapes to threads when needed by the use of thread pool. Breaking the illusion shows how Node.js empowers JS to conquer the server, blending browser roots with systems-level smarts."
+*********************************************************************************
 - allows Node.js to handle thousands of concurrent connections with a single server without introducing the burden of managing thread concurrency, which could be a significant source of bugs. means what?
     - (asynchronous (non-blocking) model-node js - google - ss)
 
@@ -45,3 +55,7 @@ what does it mean?
 
 - I/O operations in web apps and networking:
     (I O operations in web apps and networking - google - ss)
+
+- libuv: open-source library_specializes in asynchronous I/O.
+    - libuv is a high-performance, open-source library written in C that specializes in asynchronous I/O. It acts as the hidden engine beneath many performance-critical applications, primarily famous for powering the Node.js event loop
+    (libuv_asynchronous I O - google - ss)
