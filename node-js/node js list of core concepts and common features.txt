@@ -19,6 +19,8 @@ Features:
 
             (Event-Driven Architecture of NodeJS - geeksforgeeks - ss)
                 - (https://www.geeksforgeeks.org/node-js/explain-the-event-driven-architecture-of-node-js/)
+                
+            (https://nodejs.org/learn/asynchronous-work/event-loop-timers-and-nexttick)
 
     - Extensive module ecosystem?
     - Single-threaded Model
@@ -60,3 +62,38 @@ Concepts:
 - CommonJS ?
 - native module system ?
 - require() function
+
+- Event
+    - Emit
+        (emit named events and event - google -ss)
+
+- Non-Blocking I/O and Blocking I/O in NodeJS
+    (Blocking I O and Non-Blocking I O in NodeJS - google -ss)
+    (https://www.geeksforgeeks.org/node-js/blocking-and-non-blocking-in-node-js/)
+
+-  Streams and Buffers 
+    - (streams and buffers - google -ss)
+    - (streams and buffers - Devto - Artem Turlenko.png - ss)
+        (https://dev.to/artem_turlenko/understanding-nodejs-streams-and-buffers-3fnc)
+
+    - The Four Main Stream Types
+        - (streams and buffers - google -ss)
+        - (streams and buffers - Devto - Artem Turlenko.png - ss)
+            (https://dev.to/artem_turlenko/understanding-nodejs-streams-and-buffers-3fnc
+            
+    - Streams And Buffers In Programming
+        - (streams and buffers in programming – google – ss)
+        - (https://www.ibm.com/docs/en/xl-c-and-cpp-aix/13.1.3?topic=streaming-stream-buffers)
+        - (category of concept of Streams and Buffers_architectural design patterns and data handling concepts - google - ss)
+        - (https://www.geeksforgeeks.org/blogs/javascript-concepts-for-node-js-developers/)
+
+
+
+- Piping Streams
+    - Piping allows easy connection between readable and writable streams
+        (streams and buffers - Devto - Artem Turlenko.png - ss)
+            (https://dev.to/artem_turlenko/understanding-nodejs-streams-and-buffers-3fnc)
+
+-  Instance in programming
+    ( instance in programming - google - ss)
+    - An instance in programming is a specific, concrete object created from a blueprint called a class. While a class defines the structure and behavior, an instance is the actual entity that exists in your computer's memory during runtime, holding real data
