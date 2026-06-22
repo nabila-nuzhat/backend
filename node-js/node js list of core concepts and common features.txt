@@ -1,8 +1,8 @@
 ------------- node js list of core concepts and common features ---------------
-(https://www.geeksforgeeks.org/node-js/node-js-basics/)
-(NodeJS Basics-geeks for geeks - ss)
-(https://www.geeksforgeeks.org/blogs/javascript-concepts-for-node-js-developers/)
-(JavaScript Concepts for Node.js Developers geeksforgeeks - ss)
+- (https://www.geeksforgeeks.org/node-js/node-js-basics/)
+    (NodeJS Basics-geeks for geeks - ss)
+- (https://www.geeksforgeeks.org/blogs/javascript-concepts-for-node-js-developers/)
+    (JavaScript Concepts for Node.js Developers geeksforgeeks - ss)
 
 Features:
     - Non-blocking I/O ?
@@ -79,13 +79,21 @@ Concepts:
     - The Four Main Stream Types
         - (streams and buffers - google -ss)
         - (streams and buffers - Devto - Artem Turlenko.png - ss)
-            (https://dev.to/artem_turlenko/understanding-nodejs-streams-and-buffers-3fnc
+            (https://dev.to/artem_turlenko/understanding-nodejs-streams-and-buffers-3fnc)
             
     - Streams And Buffers In Programming
         - (streams and buffers in programming – google – ss)
         - (https://www.ibm.com/docs/en/xl-c-and-cpp-aix/13.1.3?topic=streaming-stream-buffers)
         - (category of concept of Streams and Buffers_architectural design patterns and data handling concepts - google - ss)
         - (https://www.geeksforgeeks.org/blogs/javascript-concepts-for-node-js-developers/)
+
+- Are Buffer and Streams Modules?
+    - (Are Buffer and Streams Modules – google - ss)
+      (Buffer and Streams_Modules in Node js.docx)
+    - if buffers are not modules why there is Node.js Buffer Module in w3 school?
+        (buffer The Core Module vs. Buffer The Global Object – google – ss)
+        (Buffer and Streams_Modules in Node js.docx)
+
 
 
 
@@ -97,3 +105,5 @@ Concepts:
 -  Instance in programming
     ( instance in programming - google - ss)
     - An instance in programming is a specific, concrete object created from a blueprint called a class. While a class defines the structure and behavior, an instance is the actual entity that exists in your computer's memory during runtime, holding real data
+
+- JSON Web Tokens (JWT) ?
