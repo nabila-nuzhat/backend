@@ -13,3 +13,12 @@
 
 - Kilobytes vs Kibibytes vs Bit
     -(Kilobytes vs Kibibytes vs Bit - google -ss)
+
+
+- How to Create and Run a Node.js Project in VS Code Editor ? LATERRRRRRRRR
+    - (https://www.geeksforgeeks.org/node-js/how-to-create-and-run-node-js-project-in-vs-code-editor/)
+
+- node index.js vs npm run dev commands in Command line
+    (node index.js vs npm run dev commands in Command line - ss)
+    both are same 
+    Both do the exact same thing — but npm run dev works because you defined it in package.json:
