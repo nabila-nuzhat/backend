@@ -1,0 +1,9 @@
+-------------- Buffer -------------
+- Buffer methods
+
+- why Buffer.alloc() Zero-Filled & Secure?
+    - (why Bufferaloc Zero-Filled & Secure - google - ss)
+
+- buffer methods list when and why used
+    - (buffer methods list when and why used - google - ss)
+        (buffer methods - .docx)

@@ -4,23 +4,26 @@
 - (https://www.geeksforgeeks.org/blogs/javascript-concepts-for-node-js-developers/)
     (JavaScript Concepts for Node.js Developers geeksforgeeks - ss)
 
+- Setting Up Node.js
+    - (https://www.geeksforgeeks.org/blogs/javascript-concepts-for-node-js-developers/)
+        (JavaScript Concepts for Node.js Developers geeksforgeeks - ss)
 Features:
     - Non-blocking I/O ?
     - Event-driven architecture ?
         - event driven architecture in simple terms
-            (event driven architecture in simple terms- google - ss)
+            - (event driven architecture in simple terms- google - ss)
             ( event-driven architecture-geeksforgeeks - ss)
-           ( https://www.geeksforgeeks.org/system-design/event-driven-architecture-system-design/)
-            event driven architecture in simple terms in node js
+           - ( https://www.geeksforgeeks.org/system-design/event-driven-architecture-system-design/)
+           -  event driven architecture in simple terms in node js
             (event driven architecture in simple terms in node js – google – ss)
            
-            (https://www.freecodecamp.org/news/event-based-architectures-in-javascript-a-handbook-for-devs/)
+            - (https://www.freecodecamp.org/news/event-based-architectures-in-javascript-a-handbook-for-devs/)
                 - Event-Based Architectures in JavaScript: A Handbook for Devs
 
-            (Event-Driven Architecture of NodeJS - geeksforgeeks - ss)
+            - (Event-Driven Architecture of NodeJS - geeksforgeeks - ss)
                 - (https://www.geeksforgeeks.org/node-js/explain-the-event-driven-architecture-of-node-js/)
                 
-            (https://nodejs.org/learn/asynchronous-work/event-loop-timers-and-nexttick)
+            - (https://nodejs.org/learn/asynchronous-work/event-loop-timers-and-nexttick)
 
     - Extensive module ecosystem?
     - Single-threaded Model
@@ -104,9 +107,15 @@ Concepts:
     - https://www.dennisokeeffe.com/blog/2024-07-04-nodejs-buffers-explained
     -(why Outside V8 Heap is used in buffer - google -ss)
 
+- why Strings are in V8 "heap" memory even though it is a primitive data type?
+    - (Strings are in V8 heap memory even being primitive data type why - google - ss)
+
 - monolithic binary block
     - (monolithic binary block - google - ss)
     a single, self-contained executable file that contains all the application logic, dependencies, and static assets needed to run a program
+    - monolithic(something that is massive, solid, and made of a single piece) 
+
+- 
 
 
 - Piping Streams
@@ -120,3 +129,8 @@ Concepts:
 
 - JSON Web Tokens (JWT) ?
 
+- node js packege.js dependecy type = comomnJs vs module?
+    - (node js packege.js dependecy type comomnJs vs module - google - ss)
+
+
+- Node.js e likha hoy js e. but file system e js kaj korena. C++ die kaj hoy behind the scene.
