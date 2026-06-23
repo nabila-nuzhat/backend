@@ -115,7 +115,10 @@ Concepts:
     a single, self-contained executable file that contains all the application logic, dependencies, and static assets needed to run a program
     - monolithic(something that is massive, solid, and made of a single piece) 
 
-- 
+- node index.js vs npm run dev commands in Command line
+    (node index.js vs npm run dev commands in Command line - ss)
+    both are same 
+    Both do the exact same thing — but npm run dev works because you defined it in package.json:
 
 
 - Piping Streams

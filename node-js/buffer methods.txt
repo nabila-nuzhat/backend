@@ -1,0 +1,6 @@
+- Buffer methods
+
+-  Buffer.alloc()
+    - by default data is in UTF-8 format
+    - - why Buffer.alloc() Zero-Filled & Secure?
+    - (why Bufferaloc Zero-Filled & Secure - google - ss)
