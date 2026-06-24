@@ -9,3 +9,7 @@
     - (convert string to hex using Buffer from - google - ss)
     ************ (Buffer from Encoding Deep Dive- google AI - google -ss)*********
     ************ (Buffer From Encoding.docx) ************************************
+
+    - Encoding vs Conversion vs Decoding in buffer.from()
+        (Encoding vs Conversion vs Decoding in buffer from – google -ss)
+        (Buffer From Encoding.docx)
