@@ -137,3 +137,20 @@ Concepts:
 
 
 - Node.js e likha hoy js e. but file system e js kaj korena. C++ die kaj hoy behind the scene.
+
+- (Buffer from method syntax_encoding meaning - ss)
+- (Encoding support in node js-whatsapp - ss)
+    - Encoding support in Node.js refers to the runtime's native ability to translate binary data (bytes) into human-readable text (strings) and vice versa. Because computers strictly process binary, Node.js uses its globally available Buffer class and web-standard APIs to convert data formats seamlessly when performing network requests, database communication, or file operations.
+        
+        Natively Supported Encodings
+            Node.js supports a core list of string encodings natively via the Buffer class:
+            - utf8 (or utf-8): Multi-byte encoded Unicode characters. This is the default format for most text transformations.
+            
+            - utf16le (or utf-16le): 2 or 4 bytes, little-endian encoded Unicode characters. Node.js handles an alias for this named ucs2.
+            
+            - latin1: One-byte encoding supporting ISO-8859-1 character maps. It handles an alias named binary.
+            
+            - ascii: For 7-bit ASCII data only. It is fast but truncates the high bit of any extended character.
+            
+            - base64 / base64url: Used to convert binary data into web-safe ASCII string representations.
+            - hex: Encodes each byte as two hexadecimal characters.

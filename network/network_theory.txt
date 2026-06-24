@@ -235,3 +235,10 @@ https://en.wikipedia.org/wiki/Name_server
     (Ethernet vs Ethertnate Frame in LAN - claude - ss)
 
 - Abstraction is applied Networking
+
+- Cache vs Cookie
+    - https://dev.to/jamescroissant/understanding-cache-vs-cookie-vs-session-in-100-seconds-4hj8
+    - https://www.geeksforgeeks.org/computer-networks/difference-between-cache-and-cookies/
+    - https://www.youtube.com/watch?v=QYXAxXjaKws
+
+
