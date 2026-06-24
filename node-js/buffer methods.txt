@@ -4,3 +4,8 @@
     - by default data is in UTF-8 format
     - - why Buffer.alloc() Zero-Filled & Secure?
     - (why Bufferaloc Zero-Filled & Secure - google - ss)
+
+- Buffer.from()
+    - (convert string to hex using Buffer from - google - ss)
+    ************ (Buffer from Encoding Deep Dive- google AI - google -ss)*********
+    ************ (Buffer From Encoding.docx) ************************************
