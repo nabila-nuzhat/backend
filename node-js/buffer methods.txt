@@ -17,3 +17,4 @@
 - how to find out what is base64 format of a string in buffer?
    ( how to find out what is base64 format of a string in buffer - google - ss)
 
+- Base64 increases data size by approximately 33%. ??? LATERRRRRRRRR
