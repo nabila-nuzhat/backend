@@ -66,5 +66,13 @@ console.log(textOriginal.toString("base64", 7, 12)); // hola! Amigos WHY ???????
 console.log(buffMainString.toString("base64", 7, 12)); // bWlnb3M=
 console.log(buffMainString.toString("base64", 7, 11)); // bWlnbw==
 
+// buff.write() method ----------------
+/* Already allocated
+    const buff = Buffer.alloc(10); */
+console.log(buff.write("Adios Amigos!")); //10 -> Returns the number of bytes written, not the buffer itself.
+
+console.log(buff.toString()); // Adios Amig -> to read the text allocated in buffer need toString()
+
+
 
 
