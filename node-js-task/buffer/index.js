@@ -37,3 +37,19 @@ console.log("buffFrom44 = ", buffFrom44); //
     const buffFrom44Base64 = Buffer.from("Adios", "base64");
     console.log("buffFrom22Base64 = ", buffFrom44Base64); //  
     */
+   
+// converting back to origin text start ----------------------
+const buffMainString = Buffer.from("hola! Amigos");
+console.log(buffMainString); // <Buffer 68 6f 6c 61 21 20 41 6d 69 67 6f 73> it's a hex visual output of default utf-8 translation
+
+const buffBase64 = buffMainString.toString("base64");
+console.log(buffBase64); // aG9sYSEgQW1pZ29z
+console.log(typeof buffBase64); // string
+
+
+const buffBase64toString = Buffer.from("aG9sYSEgQW1pZ29z", "base64"); // parsing the encoded compatible format mentioned in encoding, converting it to binary to store and showing hex o/p for human readability. 
+console.log(buffBase64toString); // <Buffer 68 6f 6c 61 21 20 41 6d 69 67 6f 73> (hex)
+
+const textOrgininal = buffBase64toString.toString("utf-8"); // translating the binary back to original text format;
+console.log(textOrgininal); // hola! Amigos
+// converting back to origin text endline ----------------------
