@@ -59,10 +59,10 @@ console.log(textOriginal); // hola! Amigos
     end - Optional. End byte index (exclusive)
  */
 // const readTextOrg = textOriginal.toString("utf-8", 0, 8);
-console.log(textOriginal.toString("utf-8", 0, 8)); // hola! Amigos Why ?????????
+console.log(textOriginal.toString("utf-8", 0, 8)); // hola! Amigos ??? ISSUE: WHY textOriginal not same as buffMainString ?????? ?????????
 console.log(buffMainString.toString("utf-8", 0, 8)); // hola! Am
 // const readTextinBase64 = textOriginal.toString("base64", 7, 12);
-console.log(textOriginal.toString("base64", 7, 12)); // hola! Amigos WHY ?????????/
+console.log(textOriginal.toString("base64", 7, 12)); // hola! Amigos ??? ISSUE: WHY textOriginal not same as buffMainString ??????
 console.log(buffMainString.toString("base64", 7, 12)); // bWlnb3M=
 console.log(buffMainString.toString("base64", 7, 11)); // bWlnbw==
 
