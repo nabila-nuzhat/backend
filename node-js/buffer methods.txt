@@ -13,3 +13,7 @@
     - Encoding vs Conversion vs Decoding in buffer.from()
         (Encoding vs Conversion vs Decoding in buffer from – google -ss)
         (Buffer From Encoding.docx)
+
+- how to find out what is base64 format of a string in buffer?
+   ( how to find out what is base64 format of a string in buffer - google - ss)
+
