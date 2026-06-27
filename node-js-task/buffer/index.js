@@ -83,11 +83,38 @@ console.log(buffMainString[0]); // 104
 console.log(buffMainString.toString()); // hola! Amigos
 console.log(buffMainString); // <Buffer 68 6f 6c 61 21 20 41 6d 69 67 6f 73>
 
+console.log(buffMainString[0].toString(16)); // 68  (hex)
+console.log(buffMainString[0].toString(2)); // 1101000 (binary)
+buffMainString[1] = 101; // hela! Amigos (replaced o by e = 101)
+console.log(buffMainString.toString())
+
 console.log("textOriginal :", textOriginal[0]); // textOriginal : h (bcz textOriginal is a string)
 console.log("textOriginal :", textOriginal.toString("base64")); // textOriginal : hola! Amigos (bcz textOriginal is a string not a buffer)
 
+/* slice---------------- */
+const bufForSlice = Buffer.from("Slice Me!")
+console.log("bufForSlice org:", bufForSlice); // bufForSlice org: <Buffer 53 6c 69 63 65 20 4d 65 21>
+const bufSliced = bufForSlice.slice(0, 3);
+console.log("bufSliced portion", bufSliced); // bufSliced portion <Buffer 53 6c 69>
+console.log("bufForSlice after slice:", bufForSlice);
 
+/* copy() ------------------ */
+const bufForCopy = Buffer.from("Copy Me!")
+console.log("bufForCopy before", bufForCopy);
 
+const bufCopied= Buffer.alloc(3);
+bufForCopy.copy(bufCopied, 0, 0, 3);
+console.log("bufCopied :", bufCopied); 
+console.log("bufCopied :", bufCopied.toString()); // bufCopied : Cop
+console.log("bufForCopy after :", bufForCopy.toString());
 
+const bufCopied2 = Buffer.alloc(3);
+bufForCopy.copy(bufCopied2, 1, 5, 8);
+console.log("bufCopied2 :", bufCopied2.toString()); // bufCopied2 : NULMe 
+const bufCopied22 = Buffer.alloc(4);
+bufForCopy.copy(bufCopied22, 1, 5, 8);
+console.log("bufCopied22 :", bufCopied22.toString()); // bufCopied22 : NULMe! 
 
-
+const bufCopied3 = Buffer.alloc(3);
+bufForCopy.copy(bufCopied3, 0, 5, 8);
+console.log("bufCopied3 :", bufCopied3.toString()); // bufCopied3 : Me!

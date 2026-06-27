@@ -40,3 +40,18 @@
     (Buffer toString method_Buffer vs buffer string - claude - ss)
 
 
+- How buffer accesses as Array while it's AN Object ???????? 
+    - (How buffer can be accessed as an Array while Buffer is an object - google - ss)
+        (array-like view of raw binary memory_Node.js Buffer TypedArray Uni8Array - google - ss)
+
+- slice()
+    - why slice didnt change the original bufForSlice after bufForSlice.slice()?
+        - (Buffer slice behavior in Node.js - claude - ss)
+
+- copy()
+    - buffer copy syntax:
+    buf.copy(copy, 0, 0, 5);
+    means: original-Buffer.copy(destination Buffer, targetStart, sourceStart, sourceEnd);
+
+    - why the bufCopied2 and bufCopied3 toString output showing before and after NUL in the buffer task example?
+        - (Buffer copy_NUL before in toString output - claude - ss)
