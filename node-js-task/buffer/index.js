@@ -118,3 +118,14 @@ console.log("bufCopied22 :", bufCopied22.toString()); // bufCopied22 : NULMe!
 const bufCopied3 = Buffer.alloc(3);
 bufForCopy.copy(bufCopied3, 0, 5, 8);
 console.log("bufCopied3 :", bufCopied3.toString()); // bufCopied3 : Me!
+
+/* Buffer Pool default ------------------- */
+console.log(Buffer.poolSize); // 8192  which is 8KB = 8192 bytes
+
+/* PRACTISE WORK POWER Point --------------------------------------------------
+// Hint: fs.readFile + toString('base64')
+// Hint: createReadStream + pipe
+// Hint: net.createServer + toString('hex')
+// Hint: Modify both, check original
+--------------------------------------------------------------
+ */

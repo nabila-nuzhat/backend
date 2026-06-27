@@ -4,6 +4,21 @@
     - by default data is in UTF-8 format
     - - why Buffer.alloc() Zero-Filled & Secure?
     - (why Bufferaloc Zero-Filled & Secure - google - ss)
+    - how much byte is allocated in Buffer.aloc()?
+        example: 
+        const bufCopied2 = Buffer.alloc(3);
+            3 bytes
+        - (Byte size in Buffer alloc - google - ss)
+        - Buffer.alloc() never uses the internal Buffer Pool.
+            - (Buffer alloc Do NOT use Buffer Pool - google - ss)
+
+- Buffer.allocUnsafe();
+    - buf.fill(0); // Clear immediately
+
+- what is Use linter rules to catch unsafe patterns,?
+what is Audit code for allocUnsafe usage?
+in node js , buffer and unSafe()?
+    - (Use linter rules_Audit code for allocUnsafe- Buffer Node js - claude - ss)
 
 - Buffer.from()
     - (convert string to hex using Buffer from - google - ss)
@@ -37,7 +52,10 @@
 
 
 - Buffer toString() method_Buffer vs buffer string
-    (Buffer toString method_Buffer vs buffer string - claude - ss)
+    - (Buffer toString method_Buffer vs buffer string - claude - ss)
+    - Q: How to convert Buffer to Base64? so why does it called as to "convert" the Buffer when it is just translating? but toString() doesnt fully convert the real buffer into base64 format right?
+    it just translates the binary data of the buffer into base64 string right?
+        - (convert Buffer to Base64_ toString type conversion_generates a textual representation - google - ss)
 
 
 - How buffer accesses as Array while it's AN Object ???????? 
@@ -55,3 +73,17 @@
 
     - why the bufCopied2 and bufCopied3 toString output showing before and after NUL in the buffer task example?
         - (Buffer copy_NUL before in toString output - claude - ss)
+
+
+- Buffer Pool in nodejs
+    - ( Buffer Pool in nodejs - google - ss)
+
+    - ( Allocation Threshold in Buffer pool - google - ss)
+
+-----------------------------------
+- PRACTISE
+// Hint: fs.readFile + toString('base64')
+// Hint: createReadStream + pipe
+// Hint: net.createServer + toString('hex')
+// Hint: Modify both, check original
+
