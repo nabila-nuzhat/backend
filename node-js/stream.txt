@@ -1,0 +1,4 @@
+------------ Stream ------------
+- why stream is an Abstract interface
+    - (why stream is an Abstract interface_deep meaning - google - ss)
+    - (why stream is an Abstract interface - google - ss)
