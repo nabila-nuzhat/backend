@@ -73,6 +73,21 @@ console.log(buff.write("Adios Amigos!")); //10 -> Returns the number of bytes wr
 
 console.log(buff.toString()); // Adios Amig -> to read the text allocated in buffer need toString()
 
+/* array like index access------------------------ 
+ * buffBase64toString & buffMainString both variables are allocated in Buffer*/
+console.log(buffBase64toString[0]); // 104
+console.log(buffBase64toString.toString()); // hola! Amigos
+console.log(buffBase64toString.toString("base64")); // aG9sYSEgQW1pZ29z
+console.log(buffBase64toString); // <Buffer 68 6f 6c 61 21 20 41 6d 69 67 6f 73>
+console.log(buffMainString[0]); // 104
+console.log(buffMainString.toString()); // hola! Amigos
+console.log(buffMainString); // <Buffer 68 6f 6c 61 21 20 41 6d 69 67 6f 73>
+
+console.log("textOriginal :", textOriginal[0]); // textOriginal : h (bcz textOriginal is a string)
+console.log("textOriginal :", textOriginal.toString("base64")); // textOriginal : hola! Amigos (bcz textOriginal is a string not a buffer)
+
+
+
 
 
 
