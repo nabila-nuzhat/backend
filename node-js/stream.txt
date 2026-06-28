@@ -2,3 +2,31 @@
 - why stream is an Abstract interface
     - (why stream is an Abstract interface_deep meaning - google - ss)
     - (why stream is an Abstract interface - google - ss)
+
+- React to data events in real-time without polling means?
+    - (React to data events in real-time without polling - google - ss)
+        (React to data events in real-time without polling_what is polling here - google - ss)
+
+- what is reading and writing a file in programming and stream and node.js?
+    - (reading and writing a file in programming and stream in node js - google - ss)
+
+- what is • process.stdin?
+    - (what is process.stdin - google - ss)
+
+- proxy server
+    - (proxy server in simple tech way - google - ss)
+
+- CSV parsers (Transform Stream)
+    - (CSV parsers - google - ss)
+
+- kib vs kb Kibibyte vs Kilobyte 
+    - (kib vs kb Kibibyte vs Kilobyte - google - ss)
+
+- Operating Modes of Stream in Node js:
+    - ( Operating mode in Stream in node js and in programming - google - ss)
+        Every Readable stream in Node.js operates in one of two distinct functional execution modes, controlling how data is pulled out of its internal cache:
+
+    - what is Operating mode in Stream in node js?
+    - ( Operating mode in Stream in node js and in programming - google - ss)
+        - In Node.js, the Operating Mode of a Readable stream determines exactly how data is consumed from the underlying system and pushed to your application.Every Node.js Readable Stream runs in one of two major operational reading modes: Flowing Mode or Paused Mode
+        Every Node.js Readable Stream runs in one of two major operational reading modes: Flowing Mode or Paused Mode
