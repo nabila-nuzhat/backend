@@ -30,3 +30,13 @@
     - ( Operating mode in Stream in node js and in programming - google - ss)
         - In Node.js, the Operating Mode of a Readable stream determines exactly how data is consumed from the underlying system and pushed to your application.Every Node.js Readable Stream runs in one of two major operational reading modes: Flowing Mode or Paused Mode
         Every Node.js Readable Stream runs in one of two major operational reading modes: Flowing Mode or Paused Mode
+
+- Backpressure
+- (What is Backpressure - google - ss)
+- (Backpressure is a solution not a problem_What is Backpressure - google - ss)
+- (https://www.geeksforgeeks.org/computer-networks/back-pressure-in-distributed-systems/)
+    (geeksforgeeks_What is Backpressure - ss)
+- (https://medium.com/@manik.ruet08/the-role-of-backpressure-in-modern-data-pipelines-c998c7fb1e79)
+    - In software and system design, backpressure is a flow-control mechanism used when a system receives data faster than it can process it. Instead of crashing or losing data, the system signals upstream components to slow down or temporarily stop sending work.
+    - Back Pressure in Distributed Systems explains how back pressure mechanisms help manage data flow in complex computer systems that span multiple servers or devices. When too much data is sent too quickly, it can overwhelm parts of the system, causing delays or failures. 
+    - Back pressure works like traffic control, slowing down, or stopping the flow of data to prevent overloads.
