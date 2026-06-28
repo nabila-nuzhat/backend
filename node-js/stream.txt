@@ -37,6 +37,7 @@
 - Backpressure
     - (What is Backpressure - google - ss)
     - - (Backpressure_Immune Mechanism Design of System to Slowdown Data Overflow_Docx - google - ss + Docx File)
+        - - (poorly handled backpressure_unintentional or intentional data drop or loss - google - ss)
     - (Backpressure is a solution not a problem_What is Backpressure - google - ss)
     - (https://www.geeksforgeeks.org/computer-networks/back-pressure-in-distributed-systems/)
         (geeksforgeeks_What is Backpressure - ss)
@@ -52,3 +53,10 @@
 
         - *** Backpressure_Immune Mechanism Design of System to Slowdown Data Overflow ******************************
             - (Backpressure_Immune Mechanism Design of System to Slowdown Data Overflow_Docx - google - ss + Docx File)
+
+        - so poorly handled backpressure mechanism may cause unintentional data drop or loss? 
+          does the trigger of Backpressure may cause App crash and or Data loss ?
+            - (poorly handled backpressure_unintentional or intentional data drop or loss - google - ss)
+
+        - in which kind of application and task backpressure is used?
+            - (Backpressure_application and task where backpressure is used_real usecase - google -ss)
