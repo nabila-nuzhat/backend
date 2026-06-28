@@ -1,4 +1,7 @@
 ------------ Stream ------------
+- Stream 
+    - (https://oneuptime.com/blog/post/2026-01-09-nodejs-streams-complete-guide/view)
+
 - why stream is an Abstract interface
     - (why stream is an Abstract interface_deep meaning - google - ss)
     - (why stream is an Abstract interface - google - ss)
@@ -32,11 +35,20 @@
         Every Node.js Readable Stream runs in one of two major operational reading modes: Flowing Mode or Paused Mode
 
 - Backpressure
-- (What is Backpressure - google - ss)
-- (Backpressure is a solution not a problem_What is Backpressure - google - ss)
-- (https://www.geeksforgeeks.org/computer-networks/back-pressure-in-distributed-systems/)
-    (geeksforgeeks_What is Backpressure - ss)
-- (https://medium.com/@manik.ruet08/the-role-of-backpressure-in-modern-data-pipelines-c998c7fb1e79)
-    - In software and system design, backpressure is a flow-control mechanism used when a system receives data faster than it can process it. Instead of crashing or losing data, the system signals upstream components to slow down or temporarily stop sending work.
-    - Back Pressure in Distributed Systems explains how back pressure mechanisms help manage data flow in complex computer systems that span multiple servers or devices. When too much data is sent too quickly, it can overwhelm parts of the system, causing delays or failures. 
-    - Back pressure works like traffic control, slowing down, or stopping the flow of data to prevent overloads.
+    - (What is Backpressure - google - ss)
+    - - (Backpressure_Immune Mechanism Design of System to Slowdown Data Overflow_Docx - google - ss + Docx File)
+    - (Backpressure is a solution not a problem_What is Backpressure - google - ss)
+    - (https://www.geeksforgeeks.org/computer-networks/back-pressure-in-distributed-systems/)
+        (geeksforgeeks_What is Backpressure - ss)
+    - (https://medium.com/@manik.ruet08/the-role-of-backpressure-in-modern-data-pipelines-c998c7fb1e79)
+    - (https://www.lancedb.com/blog/columnar-file-readers-in-depth-backpressure)
+        (lancedb_What is Backpressure - google - ss)
+        - In software and system design, backpressure is a flow-control mechanism used when a system receives data faster than it can process it. Instead of crashing or losing data, the system signals upstream components to slow down or temporarily stop sending work.
+        - Back Pressure in Distributed Systems explains how back pressure mechanisms help manage data flow in complex computer systems that span multiple servers or devices. When too much data is sent too quickly, it can overwhelm parts of the system, causing delays or failures. 
+        - Back pressure works like traffic control, slowing down, or stopping the flow of data to prevent overloads.
+
+        - is Backpressure a problem or solution?
+            - Backpressure is a solution, not a problem.The actual problem is system overload (when data arrives faster than a system can handle it). Backpressure is the protective mechanism built to solve that problem.
+
+        - *** Backpressure_Immune Mechanism Design of System to Slowdown Data Overflow ******************************
+            - (Backpressure_Immune Mechanism Design of System to Slowdown Data Overflow_Docx - google - ss + Docx File)
