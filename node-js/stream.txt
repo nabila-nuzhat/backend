@@ -60,3 +60,18 @@
 
         - in which kind of application and task backpressure is used?
             - (Backpressure_application and task where backpressure is used_real usecase - google -ss)
+
+- high watermark
+    - Larger buffer reduces I/O operations improving throughput means what in high watermark ?
+        -(Larger buffer reduces IO operations improving throughput means what in high watermark - google - ss)
+    
+    - What is Throughput ?
+        -(Larger buffer reduces IO operations improving throughput means what in high watermark - google - ss)
+
+    - (Smaller buffer reduces memory footprint better for constrained environments high Water mark - google - ss) 
+
+    - increase highWaterMark vs decrease highWaterMark which one better and for what ?
+        - (increase highWaterMark vs decrease highWaterMark - google - ss)
+
+    - No pipe is not a transform stream
+        - (No pipe is not a transform stream - google - ss)
