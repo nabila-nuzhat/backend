@@ -75,3 +75,7 @@
 
     - No pipe is not a transform stream
         - (No pipe is not a transform stream - google - ss)
+
+- Operation mode of Node js Stream
+    - Object Mode:
+        - (Object Mode_Operation mode of Node js Stream - google - ss)
