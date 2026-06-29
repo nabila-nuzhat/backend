@@ -79,3 +79,21 @@
 - Operation mode of Node js Stream
     - Object Mode:
         - (Object Mode_Operation mode of Node js Stream - google - ss)
+    
+        - what is Message Queues and Stream messages from Kafka, RabbitMQ, refers to in node js Object Mode use?
+            - (Message Queues and Stream messages from Kafka RabbitMQ,_node js Object Mode - google - ss)
+
+
+    - what is message refering to?
+        - (message in Node js Object Mode - google - ss)
+
+- decoupled vs loosely coupled
+    - (decoupled vs loosely coupled - google - ss)
+
+
+- Async Iterators with Streams
+    - (Async Iterators with Streams - google - ss)
+
+    - when Async Iterators used in comparison to not modern code?
+        - (Async Iterators with Streams_in comparison to not modern code - google - ss)
+
