@@ -129,13 +129,3 @@ console.log(Buffer.poolSize); // 8192  which is 8KB = 8192 bytes
 // Hint: Modify both, check original
 --------------------------------------------------------------
  */
-
-// const fs = require('fs'); 
-import fs from 'fs';
-const file = fs.createWriteStream('./big.file');
-
-for(let i=0; i<= 1e2; i++) {
-  file.write('Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n');
-}
-
-file.end();
