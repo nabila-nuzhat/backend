@@ -2,12 +2,13 @@
     /* BIG File create 
     1. in local folder -------------------------------------------- */
     // // const fs = require('fs'); // for type commonJs
-    // // import fs from "fs" // how this too work?
+    // // import fs from "fs" // how this too work? ISSUE solved (claude suggetsion "Node.js Package.json type field compatibility syntax code")
         //  import fs from "node:fs";
         // const file = fs.createWriteStream('./big.file');
 
-        // for(let i=0; i<= 1e2; i++) {
-        //   file.write('Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n');
+        // for(let i=0; i<= 5*1e2; i++) {
+        //     //   file.write('Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n');
+        //     file.write(' Ami Home Work korte bhulbo na.\n');
         // }
 
         // file.end();
@@ -30,5 +31,5 @@
             });
         });
 
+        server.listen(3000);
         // server.listen(8000);
-        server.listen(8000);
