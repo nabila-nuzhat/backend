@@ -87,6 +87,12 @@
     - what is message refering to?
         - (message in Node js Object Mode - google - ss)
 
+    - when to use Object mode vs binary mode in  node js stream?
+        - (when to use Object mode vs binary mode in  node js stream - google - ss)
+
+    -  Message Queues and Stream messages from Kafka RabbitMQ refers to in node js Object Mode use ?
+        - ( Message Queues and Stream messages from Kafka RabbitMQ refers to in node js Object Mode use - google - ss)
+
 - decoupled vs loosely coupled
     - (decoupled vs loosely coupled - google - ss)
 
@@ -97,3 +103,11 @@
     - when Async Iterators used in comparison to not modern code?
         - (Async Iterators with Streams_in comparison to not modern code - google - ss)
 
+- Stream inherits Event Emmiters
+
+- *** File path:
+    - even if file is in the root has to start with ./
+
+
+----- EXAMPLE Source ----------------
+https://www.freecodecamp.org/news/node-js-streams-everything-you-need-to-know-c9141306be93/

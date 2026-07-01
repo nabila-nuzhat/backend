@@ -25,6 +25,9 @@ Features:
                 
             - (https://nodejs.org/learn/asynchronous-work/event-loop-timers-and-nexttick)
 
+            - which is basically used in node js event driven architecture or message driven archietecture ?
+                - (event driven architecture or message driven archietecture_basically used in node js - google - ss)
+
     - Extensive module ecosystem?
     - Single-threaded Model
 
