@@ -1,6 +1,7 @@
 ------------ Stream ------------
 - Stream 
     - (https://oneuptime.com/blog/post/2026-01-09-nodejs-streams-complete-guide/view)
+    - https://www.freecodecamp.org/news/node-js-streams-everything-you-need-to-know-c9141306be93/
 
 - why stream is an Abstract interface
     - (why stream is an Abstract interface_deep meaning - google - ss)
