@@ -1,0 +1,7 @@
+---------------- Event Emitter --------------
+- decoupled vs loosely coupled vs event emitter in node js:
+    - (decoupled vs loosely coupled in node js - google ss)
+    - (decoupled vs loosely coupled vs event emitter in node js - google ss)
+    - how does EventEmitter in Node.js core module enables decoupling and Loose coupling ? arent ecoupling and Loose coupling different?
+        - (EventEmitter in Node.js core module enables decoupling and Loose coupling - google ss)
+        
