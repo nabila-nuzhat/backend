@@ -4,4 +4,15 @@
     - (decoupled vs loosely coupled vs event emitter in node js - google ss)
     - how does EventEmitter in Node.js core module enables decoupling and Loose coupling ? arent ecoupling and Loose coupling different?
         - (EventEmitter in Node.js core module enables decoupling and Loose coupling - google ss)
+    - decoupled vs loosely coupled vs event emitter in node js : the difference lies on the shared event name?
+        - (EventEmitter in Node.js core module enables decoupling and Loose coupling - Deep Dive google - google ss)
         
+
+- what is on in Event Emitter? 
+/ stream.on('end', callback) what is on here?
+    - (what is on in Event Emitter - google - ss)
+    - (Event Emitter Method_ON.docx )
+    - is on a tag of Event emitter?
+    / on only is used to listen to emitter's event ?
+        - (on only is used to listen to Emitters event - google ss)
+        - (Event Emitter Method_ON.docx )
