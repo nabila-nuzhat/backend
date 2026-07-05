@@ -16,3 +16,12 @@
     / on only is used to listen to emitter's event ?
         - (on only is used to listen to Emitters event - google ss)
         - (Event Emitter Method_ON.docx )
+
+************************** Event Emitter List Source *************************
+
+- emitter event vs listener event in node js with built in list + basic syntax format
+    - (emitter event vs listener event in node js with built in list_basic syntax format – google ss)
+
+    - (https://www.geeksforgeeks.org/node-js/node-js-eventemitter/)
+    - Medium website
+        - (https://javascript.plainenglish.io/event-emitters-in-node-js-a-complete-guide-with-examples-79378d14ce62)
