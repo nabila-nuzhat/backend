@@ -25,3 +25,7 @@
     - (https://www.geeksforgeeks.org/node-js/node-js-eventemitter/)
     - Medium website
         - (https://javascript.plainenglish.io/event-emitters-in-node-js-a-complete-guide-with-examples-79378d14ce62)
+
+
+- why event in node js used for async operation but events are not asynchronous
+    - (why event in node js used for async operation but events are not asynchronous - google ss)

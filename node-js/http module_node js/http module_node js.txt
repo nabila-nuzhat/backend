@@ -1,0 +1,23 @@
+ -------------------- Http Module ---------------
+
+- web server vs database servers app server
+    - (https://payara.fish/blog/web-server-vs-application-server-whats-the-difference/)
+    - (https://share.google/aimode/OudqqOYajKGSkP1Oj - Google AI Answer link)
+    - 
+        - A web server is a computer program or device that hosts webpages and serves web content. As such, it offers a centralized platform to host and manage websites. A web server provides web functionalities by handing HTTP requests from clients, delivering static content like HTML, CSS and images directly to clients. Two well-known and widely used web servers are Nginx and Apache. 
+
+
+    - so node js http module falls into which type server ?
+        - (https://share.google/aimode/BNjQTCeY625BK1uFf - Google AI Answer link)
+        - (Node js Http Module_web server vs database servervs app server - google ss)
+
+
+- why http module and creating http server is needed in node js if http is already maintained while connecting to internet ? 
+    - (https://share.google/aimode/J3goR5l6aEeYBMSUA -  Google AI Answer link)
+    - (Node js Http Module vs HTTP protocol - google ss)
+        - The http Module: Translates raw data streams into usable JavaScript Request (req) and Response (res) objects.
+
+- Direct access to request/response handling without abstraction overhead
+what does it mean? 
+    - (Direct access to request response handling without abstraction overhead - googleSS)
+        - This phrase means that your code communicates directly with the network layer, bypassing heavy frameworks, libraries, or middleware layers. It gives you raw, low-level control over incoming network requests and outgoing responses to maximize performance.
