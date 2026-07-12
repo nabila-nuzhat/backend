@@ -21,3 +21,46 @@
 what does it mean? 
     - (Direct access to request response handling without abstraction overhead - googleSS)
         - This phrase means that your code communicates directly with the network layer, bypassing heavy frameworks, libraries, or middleware layers. It gives you raw, low-level control over incoming network requests and outgoing responses to maximize performance.
+
+- robust api meaning
+    - (robust api meaning - googleSS)
+
+- req.socket
+    - (req socket - googleSS)
+- web socket
+    - server doesn't break connection with client
+    - In the context of req.socket, a WebSocket connection is a permanent, two-way communication channel built on top of that raw TCP socket.Here is how it works, how it differs from standard HTTP, and how req.socket is used to create it.
+
+- Node Does NOT Auto-Parse Body what dose it mean?
+    - (Node Does NOT Auto-Parse Body - googleSS)
+    - This warning means that Node.js does not automatically read or decode the data sent in an incoming HTTP request.When a client (like a browser or mobile app) sends data to your server via a POST or PUT request, that data arrives as a raw stream of bytes. You must explicitly write code or use middleware to convert those raw bytes into a usable JavaScript object.
+
+- what is Metadata
+    - (what is Metadata - googleSS)
+    - (https://www.ibm.com/think/topics/metadata)
+        `- Metadata is information—such as author, creation date or file size—that describes a data point or data set. Metadata can improve a data system’s functions and make it easier to search for, organize and use data.
+
+        The simple definition of metadata is “data about data.” That is, it provides details about data that is separate from the content of the data itself.
+
+
+- No thread creation overhead what does it mean? and what does overhead mean ?
+    - (No thread creation overhead in Node js - googleSS)
+
+
+- node js does not create new worker for thread, but uses worker thread module fo cpu heavy task what does it mean ?
+    - (Node Js Thread_worker Thread Module.docx)
+      (node js does not create new worker for thread_uses worker thread module for cpu heavy task -googleSS)
+
+- process vs thread in node js
+    - (process vs thread in node js - googleSS)
+
+
+????????????????????????????????????  LATER ????????????????????????
+- req.method ??
+- Response Object (res) ??
+- Request object ???
+- res Methods ??
+- Use .pipe() to stream data from a file directly to the response, avoiding memory bottlenecks. ??
+- Streaming Response vs RESPONSE OBJECT ??
+ - are response and request objects all streams ??
+- Node.js can handle thousands of concurrent requests without creating a thread for each one. ??
