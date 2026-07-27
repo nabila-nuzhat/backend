@@ -1,5 +1,5 @@
  -------------------- Http Module ---------------
-
+https://docs.digitalocean.com/products/
 - web server vs database servers app server
     - (https://payara.fish/blog/web-server-vs-application-server-whats-the-difference/)
     - (https://share.google/aimode/OudqqOYajKGSkP1Oj - Google AI Answer link)
@@ -55,7 +55,19 @@ what does it mean?
     - (process vs thread in node js - googleSS)
 
 
+- thread vs feature in programming and node js
+    - (thread vs feature in programming and node js -googleSS)
+
+- Thread per request model vs Event-driven architecture vs worker_thread thread pool on node js
+    - (Thread per request model vs Event-driven architecture vs worker_thread thread pool on node js -googleSS)
+- DOCKERS form algorithm ??--- PORANOR kotha etar ALGORITHM
+- Avoid using node js for Heavy computations that hits directly to OS. bcz it's single threaded
+
+- Express vs HTTP
+    - Express is made based on Http. raw http is for more control
+
 ????????????????????????????????????  LATER ????????????????????????
+????????????????  also check on POWER POINT ???????????????????
 - req.method ??
 - Response Object (res) ??
 - Request object ???
@@ -64,3 +76,42 @@ what does it mean?
 - Streaming Response vs RESPONSE OBJECT ??
  - are response and request objects all streams ??
 - Node.js can handle thousands of concurrent requests without creating a thread for each one. ??
+- keep-alive vs nodejs in http ??
+- Timeouts, Load Balancer, Reverse Proxy in http node js http ??
+- In production, always place NGINX or similar reverse proxy in front of Node.js to handle connection pooling, SSL termination, and static file serving. ??
+
+- Monitor Connection Count ??
+- Implement Rate Limiting ??
+- Timeouts & Error Handling ??
+- Sever Timeouts ??
+    - Different for Different Routes ??
+    - Timeout Best Practices ??
+- clientError event ??
+- security header ?? 
+- parse error ??
+    - data type Different received than expected ??
+
+- Error Types to Handle ??
+- Securing communications with TLS/SSL ??
+- man-in-the-middle attacks ??
+- Browser shows security indicators ??
+- Required for PCI DSS, GDPR ??
+- key.pem ??
+    - server has prescripts, doesnt usually needed to be installed
+- HTTPS & SECURITY 
+    - TLS Concepts
+- Understanding TLS handshake and certificate chains is a common senior-level interview topic . Be prepared to explain the full handshake process and the difference between symmetric and asymmetric encryption. ??
+
+- symmetric and asymmetric encryption.??
+    - public and private key ??
+
+- Certificate Types ??
+- PERFORMANCE OPTIMIZATION in nodejs http ??
+    - Node Clustering ??
+
+- Clustering 
+    - increasing process
+- Etag?
+- http caching browser default ??
+- https usually not required for devs to set up...usually setup by default
+- node server vs server ??

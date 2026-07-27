@@ -1,0 +1,45 @@
+---------- API Design -----
+
+- API 
+    - is API only a set of rules ???
+    - is API a URL ??
+
+- how API works ??
+- Types of API ??
+    -  - SOAP APIs
+    - _RPC 
+        - _RPC API is used for payment ??
+    - REST API
+    - Web Socket
+        - eg. messenger, insta post seen by user list ??
+
+- XML 
+    - xml data type??
+
+- REST API 
+- REST API Principles and Constrains - 6
+    - Client-Server
+        - client server should be sepaerate...not tight coupled. ??
+    - Ceachability ?? 
+        - using header 
+        - non-cacheable eg. authentication ??
+    - Uniform Interface
+        - consistency of URL, so that URL structure is manitained
+        - no singular URL (eg. NOT user in URL. "users" in URL)
+    - Layered System
+        - Architecture composed of multiple layers (proxies, gateways). list of the layers ??
+        - REST API Each layer only knows about the adjacent layer means ??
+            - will be cleared while NESTING ???
+            - adjucent layer ceachable ??
+    - Code on Demand (optional)
+        - eg. a file ins needed in a fix url
+
+    - An API that follows these constraints is called "RESTful" and operates over HTTP. ??
+
+- HTTP status code in REST archiectecture
+
+- API DESIGN PRACTICES
+- API Versioning Strategies
+    - Versioning should be- 3 ways
+    - new feature added... API change in current API will cause crash, so for newer change new version of API should be added.
+

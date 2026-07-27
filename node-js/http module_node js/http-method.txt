@@ -1,0 +1,80 @@
+----- http method ----
+- http methods ??
+- why no No request body is allowed. in get??
+    - body cannot be created
+
+- POST
+    - using only POST method DELETE, GET, all can be done depending on the situation. ??
+        eg. form submission data by POST but also data can be Retrieved to GET.
+        - complex url will get complicated if GET is used. POST doesnt has that limit in url, bcz the body carries it. 
+        
+- GET 
+    
+- put
+`   - eg full profile update
+- patch
+    - eg. name update, password update
+- CORS ??
+
+- Options
+    - policy te ullekh korte hoy, allowed methods for CORS ??
+    - eg. Dummy.json only allows to use GET method as in get the datas only not PUT or PATCH nor DELETE 
+
+- HTTP headers
+    - http stateless so it is scalable. so HTTP headers makes http 
+    
+    - Real time Communication:
+        - using session.
+
+- Types of HTTP headers - 4 Types
+    - Connection
+        - value: Keep-alive/close ??
+
+    - Authorization
+        - Bearer Token ??
+
+    - Cookies / User- Agent
+        - User agent ??
+
+- Response Headers
+    - Response headers are the server's way of controlling client behavior. what does controlling client behavior means here ??
+    - Set-Cookie
+        - is it set-cookie works when we accept the cookie of a website willingly ??
+
+    - ETag ??
+
+
+- Status Codes
+    - usage ??
+    - why 4xx status codes are CLIENT FAULT??
+
+- *** Data Storage on Client Side ways:
+    - Session Storage
+    - Local Storage
+    - cookie
+    - index db (for offline app) (pc browser data Storage)
+
+- Cookies
+- Cookie Security:
+    - HttpOnly:
+        - if set with httpOnly Document.cookie cannot read that cookie from client side
+        - if not httpOnly used then, XSS attack may occur: ??
+             eg. a comment = document.getCookie and the website client input it as a script, then everyone's cookie will be stolen by that user. ?? 
+             eg. wrong image + onerror (for stealing cookie function) is written from client side. the cookies will be stolen
+    - SameSite:
+        - lax 
+
+    - max-age/expires
+        - eg. bank session 
+            eg. need cookie for the main website's subdomain.
+
+    - Path & Domains:
+        - eg. like cookie will be sent if only on facebook profile but not for facebook newsfeed ?? 
+
+- Cache vs Cookies
+- Etag & Caching
+    - Types of ETag ??
+        - byte-for-byte identical ???
+
+- TLS vs SSL
+- cryptographic protocols ??
