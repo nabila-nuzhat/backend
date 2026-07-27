@@ -38,8 +38,31 @@
 
 - HTTP status code in REST archiectecture
 
-- API DESIGN PRACTICES
+- ------------------------------------ API DESIGN PRACTICES -------------------------------------------------------
 - API Versioning Strategies
-    - Versioning should be- 3 ways
-    - new feature added... API change in current API will cause crash, so for newer change new version of API should be added.
+    - Versioning should be- 
+    - new feature added... API change in current API will cause crash, so for newer change new version of API should be added. so that 2 apps can run the versions.
+    - eg. some new features of fb/wapp only available in newer android phones/ iphones
+    
+    - API Versioning Strategies: 3 ways
+        - URL-Based
+        - Header-Based
+            - cons:
+                - apps doesnt support cookies only supported by browsers so, it's easier using URL-Based
+                Versioning of API.
+        - Query Parameter
+            - not good, it will be visible as ? query. but URL-Based will NOT be visible to user. thus cannot manipulate ???
+
+- URL Structure & Pagination: --------------------------
+- URL DESIGN RULES
+    - Avoid deep nesting (nesting better in database)
+- PAGINATION STRATEGIES
+    - Offset-Based Pagination
+        - eg. not usually an issue in smaller scale e-commerce like startech, sajgoj
+    - Cursor-Based Pagination
+        - eg. large scale like amazon
+        - to skip certain limit...the ids will be set which ones to skip like last id predict and calculate
+        - cursor = user id ??
+
+
 
