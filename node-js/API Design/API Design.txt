@@ -64,5 +64,98 @@
         - to skip certain limit...the ids will be set which ones to skip like last id predict and calculate
         - cursor = user id ??
 
+- API Authentication & Security
+    - API Keys
+        - Best for: Public APIs, rate limiting ??
+        - Limitation: No user identity: server only knows the key cannot identify if the key is provided by the exact authentic user, 
+            - easy to leak
+
+    - OAuth 2.0
+        - eg. login with google, login with gitgub etc.
+        - Users grant limited access without sharing passwords .... how without sharing passwords ??
+        - Delegated authorization framework ??
+
+    - JWT Tokens
+        - Format: Header.Payload.Signature
+            (Algorithm (Hashing algorithm), Payload, Signature (sir point))
+        - Best for: Stateless auth, microservices ??
+        - Resfresh token ??
+
+    - Security BEST Practices
+
+
+ - Hashing : 
+    - hiding data. 
+    - once hashed cannot be retreived original format, but key is used to verify.
+    - used in crypto, banking
+    - hashing happens on OS level, so to retreive original format has to engage OS/CPU operation
+- Encryption:
+    - 2 Keys
+    - can be retreived decrypted
+    - have to know algorithm to deep diving
+
+- Crypto:
+    - mining happens on OS/CPU level
+
+- Rate Limiting:
+    - eg. limited tries of password input.
+    - limit: banned for limited time/ forever
+        or, slow down 
+
+- DDos:
+    - at a time too many user
+
+- API Documentation with OpenAPI ??
+    - eg. dummy.json gives a documentation so that dev can use it by going through the documentation.
+    - Multilanguage documentation is always preferred as devs from different language
+    - OpenAPI (formerly Swagger) is a machine-readable format for describing REST APIs in YAML or JSON. ?? 
+        - Swagger : a package
+        follows a standard that is OpenAPI.
+
+    - Server Stubs ??
+        - Auto-generate backend code....in API Documentation what??
+        - SDKs for multiple languages... SDK ??
+    - Interactive Docs ??
+        - Swagger UI for exploration ?? 
+    - Auto Testing ??
+        - create workflows for auto testing ??
+
+    - 
+
+
+- YAML ??
+    - data type
+
+- WHY USE OPENAPI?
+
+- Validation, Optimization & Errors --------------------------
+- RESPONSE OPTIMIZATION
+    - RESPONSE OPTIMIZATION of REST API design ??
+    - Pagination
+        Return subsets instead of all data
+    - Compression
+        Use Gzip or Brotli to minimize payload ??
+    - Caching
+        Store frequently accessed data
+    - Serialization
+        Use lightweight formats like MessagePack ??
+
+- ERROR HANDLING
+    - Clear Messages
+        - be specific relevant error message. 
+        but still not always very direct that will subject to info leak/hacking targetted weak point. ??
+        
+        - usually packege used for automated hangdling. ??
+
+- SQL injectuion ??
+    - that runs a script on db ??
+
+- Stack traces:
+    - means locate the exact file where error occured.
+    should not be exposed to client.
+    - will only stay in develoment phase.
+    will be off when the app goes to production.
+
+
 
 
