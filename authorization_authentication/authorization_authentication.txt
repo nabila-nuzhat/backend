@@ -1,0 +1,50 @@
+authorization_authentication ___________________________
+
+- hashing vs Encryption
+- hashing:
+    - rainbow table
+    - same pattern hashing for same password
+        verify the hashing same pattern.
+    - done for password
+    - hashing algorithm
+        - MD5, bcrypt
+        Crypto parent algorithm of hashing
+    - rehash during login again
+    - for file verification
+- Encryption
+    - password should not be encrypted
+
+- authentication types: -------------------
+- Basic authentication
+- digest authentication
+- API keys ****
+    - (API full Name Reason -googleSS)
+        - API stands for Application Programming Interface. It is named this way because it acts as an interface (a connecting point or bridge) that lets one software application talk to another using programming rules, allowing them to share data and features without sharing their inner code.
+- Session based authentication
+    - redis can be used as database in most cases.
+    - increases security
+    - increases latency (pros)
+    - eg. limited numbers of devices connected 
+- Symmetric vs Asymmetric Encryption
+    - why public key will be shared with all if it doesnt work without private key??
+- Bearer Token & JWTs
+- Access & Refresh token 
+    - request interecepter
+- oAuth2
+    - not authentication, only authorization
+    - eg. sign in with google, fb
+
+- openID Connect (OIDC)
+    - login with 3rd party (eg. google) but if want to token verification under own control. (oAuth2 + adds identity)
+    - oAuth2 + user data fetch
+    - access = eg. chalender access
+
+- SSO (single sign-on)
+    - eg. google id sign in gives access to google products like Youtube, Gmail, Drive encrypted
+    - used by big vendors having multiple products
+    - 
+- SAML vs OIDC
+    - SAML : old (legacy) (eg. HR software)
+    - OIDC : Cross platform
+
+- authorization

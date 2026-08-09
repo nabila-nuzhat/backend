@@ -1,0 +1,6 @@
+ -------------- Docker -------------
+ - Why Docker
+    - lighter than VMs ??
+        - what is VM 
+            - (VM Virtual Machine -googleSS)
+            - (VM vs Docker -googleSS)
